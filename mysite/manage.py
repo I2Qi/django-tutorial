@@ -2,6 +2,8 @@
 import os
 import sys
 
+sys.path.append("/private/var/mobile/Containers/Shared/AppGroup/4E09F280-5868-4AFD-85CF-776CD29BF641/Pythonista3/Documents/django-tutorial/mysite/")
+
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
     try:
